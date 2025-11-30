@@ -123,8 +123,13 @@
   opacity: 0.95;
   letter-spacing: 1px;
   text-align: center;
+  max-width: 500px; /* reduce width for better fit */
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
   animation: fadeIn 1.5s ease;
 }
+
 
 /* Description Card */
 .description-card {

@@ -20,11 +20,12 @@ export default function Home() {
       image: "/Ibrahim.jpg"
     },
     {
-      name: "Disha",
-      role: "Research & Content",
-      description: "Handles research, documentation, and ensures content is precise and effective.",
-      image: "/Disha.jpg"
-    },
+
+        name: "Disha",
+        role: "AI Researcher",
+        description: "Focuses on AI research and ensures content is precise.",
+        image: "/Disha.jpg"
+      },
     {
       name: "Nakul",
       role: "Developer",
@@ -52,7 +53,7 @@ export default function Home() {
     <section className="hero-section">
     <img src="/hackrebels.svg" alt="Hack Rebels Logo" className="hero-logo" />
     <p className="hero-subtitle">
-    Shortlisted for Smart India Hackathon
+    Our team believes technology should feel effortless and solve real human problems. Create solutions that are intelligent, intuitive, and built with the diverse needs of India - especially the North-East - in mind.
     </p>
 
     <div className="scroll-indicator">
@@ -60,16 +61,6 @@ export default function Home() {
     <div className="mouse">
     <div className="wheel"></div>
     </div>
-    </div>
-    </section>
-
-    {/* DESCRIPTION */}
-    <section className="content-section">
-    <div className="description-card">
-    <p className="description">
-    We are a passionate team of developers, designers, and innovators,
-    building a clean, secure, and scalable solution for the Smart India Hackathon.
-    </p>
     </div>
     </section>
 
