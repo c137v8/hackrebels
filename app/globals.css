@@ -59,8 +59,8 @@
   }
 
   .hero-logo {
-    width: 60%;
-    max-width: 380px;
+    width: 100%;         /* increased from 60% */
+    max-width: 550px;   /* increased from 380px */
     opacity: 0.9;
     filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.25));
     animation: fadeIn 1.2s ease;
